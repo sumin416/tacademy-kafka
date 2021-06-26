@@ -13,6 +13,10 @@ Apache Kafka 입문과 활용
 10 bin/kafka-server-start.sh -daemon config/server.properties
 11 tail -f logs/*
 
+jps 로 실행된 java process 확인하기!
+ - QuorumPeerMain -> 주키퍼 메인
+ - Kafka
+
 # Local(macOS) 설치 및 CLI 실행
 12 curl http://mirror.navercorp.com/apache/kafka/2.5.0/kafka_2.13-2.5.0.tgz --output kafka.tgz 
 13 tar -xvf kafka.tgz
